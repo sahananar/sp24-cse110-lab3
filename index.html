@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our First Team Meeting</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Our First Team Meeting</h1>
+        <nav>
+            <ul>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#unfinished">Unfinished Business</a></li>
+                <li><a href="#newbusiness">New Business</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Brainstorming</h2>
+            <h3>Date: April 15, 2024</h3>
+            <p>Attendance: Bob, Rob and Jane. Absent: Tim</p>
+            <div><span>Team Leader: Bob</span></div>
+        </section>
+        
+        <hr>
+        
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <ol>
+                <li>Introduction</li>
+                <li>Discussion</li>
+                <li>Conclusion</li>
+            </ol>
+        </section>
+
+        <section id="unfinished">
+            <h2>Unfinished Business from Last Meeting</h2>
+            <ul>
+                <li>Continue discussion about deploying software</li>
+                <li>Make final decision about deployment</li>
+            </ul>
+        </section>
+
+        <section id="newbusiness">
+            <h2>New Business</h2>
+            <p><strong>Discussion Points:</strong></p>
+            <ul>
+                <li><b>Financial analysis</b> for the new feature</li>
+                <li><em>Adjustments</em> based on feedback</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Miscellaneous</h2>
+            <details>
+                <summary>Click to view feedback</summary>
+                <p>Concerns about timeline of deployment</p>
+            </details>
+        </section>
+        
+        <section>
+            <h2>Diagrams Presented</h2>
+            <img src="diagram.jpeg" alt="Our Diagram">
+        </section>
+        
+        <section>
+            <h2>Recordings</h2>
+            <p>For the recordings for this assignment, I have used the audio/video from the clip I recorded for our project team's video</p>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+            </audio>
+            <br>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </section>
+        
+        <footer>
+        </footer>
+    </main>
+
+    <form>
+        <fieldset>
+            <legend>Feedback Form</legend>
+            <label for="feedback">Give us your valuable feedback:</label>
+            <textarea id="feedback" name="feedback"></textarea>
+
+            <label for="date">Date of Feedback:</label>
+            <input type="date" id="date" name="date">
+            
+            <label for="satisfaction">How happy are you with our pitch?</label>
+            <select id="satisfaction" name="satisfaction">
+                <option value="satisfied">Love it!</option>
+                <option value="unsatisfied">Neutral</option>
+                <option value="neutral">Hate it :(</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
