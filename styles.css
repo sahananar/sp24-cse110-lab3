@@ -1,0 +1,127 @@
+body {
+    background-color: hsl(0, 0%, 96%);
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #be62e9;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+:root {
+    --main-theme-color: #3efcec;
+}
+
+main {
+    background-color: var(--main-theme-color, orange);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+em, i {
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+
+#newbusiness {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #newbusiness {
+        grid-template-columns: 1fr;
+    }
+}
+
+li:hover {
+    background-color: #f8f8f8;
+}
+
+#agenda {
+    background-color: #f0f0f0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button:hover {
+    background-color: #ff4500;
+    color: white;
+}
+
+nav > ul > li + li {
+    border-left: 2px solid #eee;
+    padding-left: 20px;
+}
+
+section:has(img) {
+    border: 2px solid #007bff;
+}
